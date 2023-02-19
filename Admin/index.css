@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/*admin css*/
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+
+}
+table tr td{
+    padding: 2%;
+}
+.btn-primary1{
+    background-color: blue;
+    padding: 1.5%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    border-radius: 1.5rem;
+
+}
+.btn-primary1:hover{
+    background-color:purple;
+}
+.btn-primary{
+    background-color: blue;
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.btn-primary:hover{
+    background-color:purple;
+}
+.btn-secondary{
+    background-color: rgb(15, 158, 51);
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.btn-secondary:hover{
+    background-color:green;
+}
+.btn-danger{
+    background-color: rgb(247, 56, 56);
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.btn-danger:hover{
+    background-color:red;
+}
+
+
+
+
+/*menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+.menu ul li a:hover{
+    color: blue;
+}
+.main-content{
+    padding: 5%;
+    background-color:#8a8ea0;
+}
+
+
+
+/*footer*/
+.footer{
+    background-color:red;
+}
+
+.login{
+    width: 20%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 2%;
+    background-image: url(../z7.jpg);
+}
